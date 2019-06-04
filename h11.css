@@ -1,0 +1,49 @@
+*{
+    padding:0;
+    margin:0;
+}
+@keyframes heart{
+    from{
+        transform:scale(1);
+    }
+    to{
+        transform:scale(2);
+    }
+}
+#heart{
+    width:175px;
+    height:158px;
+    position:relative;
+    margin:100px;
+
+    animation:heart 1s ease infinite;
+}
+.a{
+    width:100px;
+    height:100px;
+    background:red;
+    border-radius:50px;
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+.b{
+    width:100px;
+    height:100px;
+    background:red;
+    border-radius:50px;
+
+    position:absolute;
+    top:0px;
+    left:75px;
+}
+.c{
+    width:100px;
+    height:100px;
+    background:red;
+
+    transform:rotate(45deg);
+    position:absolute;
+    top:37px;
+    left:37px;
+}
