@@ -1,0 +1,7 @@
+void main(){
+ int a=10,i;
+ for(i=0;i<a;i++){
+printf("%4d",i);
+}
+}
+//这是我第一个创建仓库！！！
